@@ -8,7 +8,7 @@
     - [I restored from my seed phrase, but can't see any of the funds in my wallet, and the address is different.  My beta account was created before March 2018.](#i-restored-from-my-seed-phrase-but-cant-see-any-of-the-funds-in-my-wallet-and-the-address-is-different-my-beta-account-was-created-before-march-2018)
   - [Chat Rooms](#chat-rooms)
     - [How can I make a chat room?](#how-can-i-make-a-chat-room)
-    - [Where are private group chats?](#where-are-private-group-chats)
+  
     - [Can Status or anyone else see my messages?](#can-status-or-anyone-else-see-my-messages)
   - [Misc](#misc)
     - [How can I import my contacts?](#how-can-i-import-my-contacts)
@@ -21,7 +21,7 @@
 ## ENS Names
 
 ### What does "intrisic gas too low" mean?
-It means you do not have enough ETH or SNT in your Status wallet to register an ENS username. See [this section](###what-do-i-need-to-get-a-username) for an explanation
+It means you do not have enough ETH or SNT in your Status wallet to register an ENS username. See [this section](https://ethereum.stackexchange.com/questions/1570/what-does-intrinsic-gas-too-low-mean) for an explanation
 
 
 ### What do I need to get a username?
@@ -29,14 +29,14 @@ In order to regsiter an ENS username (`<yourname>.stateofus.eth`) you need to ha
 
 The name will be unique and yours until you decide to let it go, upon which you will receive your original 10 SNT back into your wallet. 
 
-You can get SNT and ETH in a myriad of ways [LINK HERE]
+Here is a [guide](https://buyingstatus.com/) on how to get SNT & ETH to your wallet, made by Status ambassador [Tidus](https://chris.kraynik.com/).
 
 ### Why can't I see anyone's ENS username?
 If you are not seeing ENS Usernames from people, then that probably means you upgraded from beta or a Release Candidate without deleting the application first.  
 
 There is a bug with the migration, and you will need to delete the application totally, and do a clean install from the app store.  MAKE SURE TO BACK UP YOUR SEED PHRASE FIRST IF YOU HAVEN'T YET.
 
-In order to maintain the current information in your app (profile, contacts, chat history, etc), we recommend loading the account on another phone, and [syncing the devices](LINK HERE) before deleting the application and doing a clean install.  Otehrwise, you'll have to start over with finding your contacts and chats you would like to be in. 
+In order to maintain the current information in your app (profile, contacts, chat history, etc), we recommend loading the account on another phone, and [syncing the devices](https://discuss.status.im/t/how-to-can-you-synchronize-chats-across-multiple-devices/1701?u=henrybitmod) before deleting the application and doing a clean install.  Otehrwise, you'll have to start over with finding your contacts and chats you would like to be in. 
 
 Your funds and ENS registrations will be safe if you have your seed phrase backed up. 
 
@@ -63,14 +63,6 @@ You do not need permission to create a public chat room, anyone can do it.  Ther
 1. Click the `+` icon in the chat screen and choose `Join public shat`.  Type in whatever chatroom name you desire.  If that room exists, you will joing it, if it doesn't, you will create it.
 2. Type in any chat the name of the chat room you desire with at `#` in front of it, _e.g._ `#my-chatroom-name`.  This will create a link in the chat which can be clicked to take you to that room.
 
-### Where are private group chats?
-We have disabled the private group chat option that has been developed in order to fix a few usability issues first.  We want to make sure what has a certain level of security, privacy, and usability before releasing it.  
-
-The current version being developed is derived from Open Whisper Systems' [protocol for Signal](https://signal.org/docs/), but changed for a decentralized context. In other words, it is really private and secure.
-
-In the meantime, a decent way to have a private conversation with a group of people is to make a public channel with the name of the channel being a shared secret. Only people who know the name of the channel can talk inside of it or read the messages if they are monitoring the network. Meaning the better the secret, the more likely no one is listening.
-
-Of course, we can't know for sure who is or isn't in a public chat room, so we cannot provide any guarantees of privacy with this method. 
 
 ### Can Status or anyone else see my messages?
 Only the intended recipients can see a message sent by you.  Any infrastructure that passes messages around the network are encrypted, sometimes multiple times, so the servers just see encrypted blobs.  
@@ -102,5 +94,3 @@ This process will not allow you to upgrade to V1.  You will have to delete the a
 
 BE SURE TO BACK UP YOUR SEED PHRASE THIS TIME.
 
-## When Dark-mode?
-> It’s a lot of work for me that spans hundreds of artboards for something that I don’t see that valuable in the grand scheme of things. We have a product design roadmap, it’s there and we’ll get there but I don’t want it to chase down the loudest requests in the room.
